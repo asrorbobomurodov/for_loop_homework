@@ -6,4 +6,8 @@ def main(N):
     Returns:
         int: return  answer
     """
-    return
+    s = []
+    for odd in range(1,N,2):
+        s.append(odd)
+    return sum(s)
+print(main(8))

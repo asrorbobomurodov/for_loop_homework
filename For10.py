@@ -6,4 +6,10 @@ def main(list1):
     Returns:
         list: return  answer
     """
-    return
+    s = []
+    for i in range(len(list1)):
+        x = list1.pop(0)
+        c = x.capitalize()
+        s.append(c)
+    return s
+print(main(["asrOr", "zuFar", "hAyoT"]))
